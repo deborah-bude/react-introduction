@@ -1,12 +1,11 @@
 # react-intro
 ## Introduction
-
 Ce projet est une introduction à ReactJS, une bibliothèque JavaScript pour construire des interfaces utilisateur.
-Ce projet est un exercice pour prendre en main React et consiste à :
+Ce projet est un exercice pour intégrer une API météo et consiste à :
 
-- Lister une liste de produits
-- Trier les produits
-- Afficher seulement les produits en stock ou non
+- Afficher les conditions météorologiques actuelles d'une ville
+- Afficher les prévisions météorologiques
+- Utiliser l'API de [WeatherAPI](https://www.weatherapi.com/)
 
 ## Prérequis
 
@@ -20,17 +19,23 @@ Clonez le dépôt et installez les dépendances :
 
 ```bash
 git clone "https://github.com/deborah-bude/react-introduction.git"
+git checkout exercice-2-start
 npm install
+```
+
+Retouvez la solution ici : 
+```bash
+git checkout exercice-2-solution
 ```
 
 ## Dépendances
 
 Les dépendances suivantes sont installées avec leurs versions :
 
-- `bootstrap`: ^5.3.3
 - `react`: ^18.3.1
-- `react-bootstrap`: ^2.10.7
 - `react-dom`: ^18.3.1
+- `lucide-react`: ^0.471.0
+- `tailwindcss` : ^3.4.17
 
 ## Démarrage
 
